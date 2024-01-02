@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "database.json": "^0.0.4",
+    "json-server": "^0.17.4",
+    "server": "^1.0.38"
+  },
+  "name": "e-commarce-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

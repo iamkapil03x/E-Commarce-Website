@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>About Us</title>
+    <style>
+        
+        .container{
+            background-image: url(./image/a1\ \(8\).jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: darkred;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="image/logo1.jpeg" alt="Logo" style="height: 50px; width: auto;">
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+    </nav>
+
+    
+    <div class="container">
+        <h1>About Us</h1>
+        <p>Welcome to our website. We are dedicated to providing...</p>
+        
+        <address>
+            <strong>Micro Esports</strong><br>
+            Mamura Sector-66 Street NO.2<br>
+            Noida, India<br>
+            Email: <a href="Kapilyadav61290@gmail.com">Kapilyadav61290@gmail.com</a>
+        </address>
+    </div>
+
+    <section id="team">
+        <div class="member" onmouseover="showInfo('Kapil Yadav', 'Web Developer')" onmouseout="hideInfo()">
+            <img src="image/logo.jpeg" alt="Kapil">
+            <h2 class="kapil">Kapil Yadav</h2>
+            <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Magnam tenetur sunt non cumque<br> quidem necessitatibus.</p>
+        </div>
+
+        <div class="member" onmouseover="showInfo('Abhishek Singh', 'Web Developer')" onmouseout="hideInfo()">
+            <img src="image/images.jpeg" alt="Abhishek">
+            <h2>Abhishek Singh</h2>
+            <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Magnam tenetur sunt non cumque<br> quidem necessitatibus.</p>
+        </div>
+
+        <div class="member" onmouseover="showInfo('Ajay Kumar Rajput', 'Graphic Designer')" onmouseout="hideInfo()">
+            <img src="image/logo1.jpeg" alt="Ajay">
+            <h2>Ajay Kumar Rajput</h2>
+            <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Magnam tenetur sunt non cumque<br> quidem necessitatibus.</p>
+        </div>
+
+    
+    </section>
+
+    <div id="info-container">
+        <p id="member-name"></p>
+        <p id="member-role"></p>
+    </div>
+    <footer>
+        &copy; 2023 E-Commarce Website
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+</html>
